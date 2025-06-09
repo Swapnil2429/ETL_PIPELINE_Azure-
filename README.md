@@ -1,4 +1,4 @@
-# ✈️ OpenSky ETL Pipeline with Azure Databricks
+#  OpenSky ETL Pipeline with Azure Databricks
 
 This project implements a scalable ETL pipeline using **Azure Databricks** to ingest real-time flight data from the **OpenSky API**, process it using the **medallion architecture (Bronze → Silver → Gold)**, and store the results in **Azure SQL** for downstream analytics with **Power BI**.
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ Key Components
+##  Key Components
 
 | Layer   | Description                                  |
 |---------|----------------------------------------------|
@@ -69,14 +69,14 @@ pip install -r requirements.txt
 
 ---
 
-## 📈 Power BI Integration
+## Power BI Integration
 
 - Connect **Power BI Desktop** to **Azure SQL Database** using the same schema used in the Gold layer.
 - Refresh dashboards on a schedule or via pipeline triggers.
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 Main packages used:
 - `pyspark`, `delta-spark`
